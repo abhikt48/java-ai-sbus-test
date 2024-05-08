@@ -1,0 +1,56 @@
+{
+	"connectionString": "****",
+	"role": {
+		"name": "mule4-test-codeless-agent"
+	},
+	"sampling": {
+		"percentage": 100
+	},
+	"instrumentation": {
+		"logging": {
+			"level": "INFO"
+		},
+		"azureSdk": {
+			"enabled": true
+		},
+		"cassandra": {
+			"enabled": true
+		},
+		"jdbc": {
+			"enabled": true
+		},
+		"jms": {
+			"enabled": true
+		},
+		"kafka": {
+			"enabled": true
+		},
+		"micrometer": {
+			"enabled": true
+		},
+		"mongo": {
+			"enabled": true
+		},
+		"quartz": {
+			"enabled": true
+		},
+		"rabbitmq": {
+			"enabled": true
+		},
+		"redis": {
+			"enabled": true
+		},
+		"springScheduling": {
+			"enabled": true
+		}
+	},
+
+	"preview": {
+		"captureControllerSpans": true,
+		"instrumentation": {
+			"grizzly": {
+				"enabled": true
+			}
+		}
+	}
+}
